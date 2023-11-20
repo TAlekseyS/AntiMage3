@@ -41,7 +41,7 @@ public class BuyingTour {
     private static final SelenideElement orderButton = $$("[class='button__content']")
             .findBy(Condition.text("Продолжить"));
 
-    // Метод который принимает данные формы и вводит их в поля
+    // Метод, который принимает данные формы и вводит их в поля
     public static void enteringInputFields(String cardNumb, String months, String years, String cardHolders, String cvC) {
         cardNumber.setValue(cardNumb);
         month.setValue(months);
